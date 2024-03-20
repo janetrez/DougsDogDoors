@@ -10,5 +10,9 @@ class DogDoor {
     }
 
     fun isOpen() = open
+    fun close() {
+        println("The dog door closes")
+        open = false
+    }
 
 }
